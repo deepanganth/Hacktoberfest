@@ -5,7 +5,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #ffffff;
+  background-color: #07070e;
 }
 
 a {
@@ -114,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(24, 6, 185, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   padding: 12px 0;
 }
 #header .logo {
@@ -323,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #5846f9;
+  color: #07070e;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -361,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(179, 4, 4, 0.9) 0%, rgba(226, 61, 61, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.61) 0%, rgba(231, 5, 5, 0.541) 100%), url("../img/hero-bg.png") center center no-repeat;
   background-size: cover;
 }
 #hero .container, #hero .container-fluid {
