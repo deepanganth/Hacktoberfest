@@ -112,10 +112,14 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  /* padding: 20px 0; */
+  margin-top: -12px;
+  margin-right: 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
+  background: url('../img/hero-bg.png') top center no-repeat;
+  background-size: cover;
   padding: 12px 0;
 }
 #header .logo {
@@ -142,6 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 .navbar {
   padding: 0;
+  margin-left: 12rem !important;
 }
 .navbar ul {
   margin: 0;
@@ -152,9 +157,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar li {
   position: relative;
+  text-transform: uppercase;
 }
 .navbar > ul > li {
-  padding: 10px 0 10px 24px;
+  padding: 10px 24px 10px 24px;
 }
 .navbar a, .navbar a:focus {
   display: flex;
@@ -163,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 3px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
@@ -273,6 +279,8 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
   line-height: 0;
   transition: 0.5s;
+  margin-left: 18rem !important;
+  color: black;
 }
 
 @media (max-width: 991px) {
