@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5846f9;
+  background: #fffff;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -1209,14 +1209,14 @@ section {
 .contact .php-email-form textarea {
   padding: 12px 15px;
 }
-.contact .php-email-form button[type=submit] {
+/* .contact .php-email-form button[type=submit] {
   background: #5846f9;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
   border-radius: 5px;
-}
+} */
 .contact .php-email-form button[type=submit]:hover {
   background: #7b27d8;
 }
